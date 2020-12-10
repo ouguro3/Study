@@ -5,5 +5,4 @@
 - Pandas : Pandas 공부 폴더  
 - Coding_test : 코딩 테스트 대비 공부 폴더  
 - Kivy : 파이썬에서 안드로이드 어플 만들기 시도
-- pygame : 파이게임 공부 (쉬는날 재미로 공부)  
-- pygame_project : 파이게임을 이용해 간단한 게임 만들기
+- tensorflow2.0 : 시작하세요! 텐서플로우 2.0 프로그래밍 책 
