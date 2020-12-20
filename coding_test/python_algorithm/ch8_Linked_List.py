@@ -6,6 +6,12 @@
 # 연결 리스트가 팰린드롬 구조인지 판별하라
 
 # 풀이 01 // 리스트 변환
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 class Solution:
     def pylist(self, head: ListNode) -> bool:
         q: List = []
@@ -34,3 +40,36 @@ if __name__ == '__main__':
   li.next.next = ListNode(2) # li = [1,2,2]
   li.next.next.next = ListNode(1) # li = [1,2,2,1]
   print(s.pylist(li))
+
+# 풀이 02 // 데크 이용
+  # 데크를 이용한 최적화
+import collections
+class Solution:
+    def pydeque(self, head: ListNode) -> bool:
+        # 데크 자료형 선언
+        q: Deque = collections.deque()
+
+        if not head:
+            return True
+
+        node = head
+        # 리스트 변환
+        while node is not None:
+            q.append(node.val)
+            node = node.next
+
+        # 팰린드롬 판별
+        while len(q) > 1:
+            if q.popleft() != q.pop():
+                return False
+
+        return True
+
+if __name__ == '__main__':
+  s = Solution()
+  li = ListNode(1) # li = [1]
+  li.next = ListNode(2) # li = [1,2]
+  print(s.pydeque(li))
+  li.next.next = ListNode(2) # li = [1,2,2]
+  li.next.next.next = ListNode(1) # li = [1,2,2,1]
+  print(s.pydeque(li))
