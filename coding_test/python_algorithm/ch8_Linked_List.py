@@ -73,3 +73,33 @@ if __name__ == '__main__':
   li.next.next = ListNode(2) # li = [1,2,2]
   li.next.next.next = ListNode(1) # li = [1,2,2,1]
   print(s.pydeque(li))
+
+  class Solution:
+    def oddEvenList(self, head: ListNode) -> ListNode:
+        # 예외 처리
+        if head is None:
+            return None
+
+        odd = head
+        even = head.next
+        even_head = head.next
+
+        # 반복하면서 홀짝 노드 처리
+        while even and even.next:
+            odd.next, even.next = odd.next.next, even.next.next
+            odd, even = odd.next, even.next
+
+        # 홀수 노드의 마지막을 짝수 헤드로 연결
+        odd.next = even_head
+        return head
+
+s = Solution()
+l1 = ListNode(1)
+l1.next = ListNode(2)
+l1.next.next = ListNode(3)
+l1.next.next.next = ListNode(4)
+l1.next.next.next.next= ListNode(5)
+answer = s.oddEvenList(l1)
+while answer is not None:
+  print(f'{answer.val}', end=" ")
+  answer = answer.next
