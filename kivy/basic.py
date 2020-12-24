@@ -62,7 +62,7 @@ BoxLayout:
                 source: 'data/logo/kivy-icon-512.png'
                 angle_start: e1.value
                 angle_end: e2.value
-
+ 
 ''')
 
 MainApp().run()
