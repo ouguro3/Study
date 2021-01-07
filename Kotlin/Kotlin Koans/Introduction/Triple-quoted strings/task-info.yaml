@@ -4,7 +4,7 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 162
+  - offset: 193
     length: 16
     placeholder_text: .trimIndent()
     initial_state:
@@ -47,5 +47,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 06 Jan 2021 17:37:48 UTC
+  time: Thu, 07 Jan 2021 01:07:29 UTC
 record: -1

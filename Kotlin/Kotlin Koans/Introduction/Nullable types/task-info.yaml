@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 91
-    length: 6
+    length: 132
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 91
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val email = client?.personalInfo?.email
           if (email != null && message != null) {
@@ -88,5 +88,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 07 Jan 2021 01:11:10 UTC
 record: -1
