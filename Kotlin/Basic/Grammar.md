@@ -81,5 +81,5 @@ val class = if(dollar > 4) "부자" else "안부자"
 ## 2.2 when 문
 ``when``은 자바의 switch를 대체하면서 휠씬 강력한 기능을 제공한다  
 ```
-
+when
 ```
