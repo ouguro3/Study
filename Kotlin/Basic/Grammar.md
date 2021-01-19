@@ -81,5 +81,17 @@ val class = if(dollar > 4) "부자" else "안부자"
 ## 2.2 when 문
 ``when``은 자바의 switch를 대체하면서 휠씬 강력한 기능을 제공한다  
 ```
-when
+# 기본적인 사용법
+val english = "blue"
+val korean: String
+
+when(english) {
+    "blue" -> korean = "파랑"
+    "red" -> korean = "빨강"
+    "pink" -> korean = "분홍"
+    "4 dollars" -> korean = "사딸라"
+    else -> korean = "없음"
+}
+
+println(korean) // 파랑
 ```
