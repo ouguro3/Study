@@ -94,4 +94,4 @@ when(english) {
 }
 
 println(korean) // 파랑
-```
+``` 
