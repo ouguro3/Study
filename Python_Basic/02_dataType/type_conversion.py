@@ -25,7 +25,4 @@ print('두 수의 합은', total, '입니다')
 print('두 수의 평균은', aver, '입니다')
 
 # 포맷 이용
-print('두 수의 합은 {0}, 평균은 {1} 입니다'.format(total,aver)
-
-
-
+print('두 수의 합은 {0}, 평균은 {1} 입니다'.format(total,aver))
