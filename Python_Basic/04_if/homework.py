@@ -1,4 +1,4 @@
-# 연산자, if문을 이용한 프로그램 작성 문제
+# 연산자, if 문을 이용한 프로그램 작성 문제
 
 # 1. 16진수 구분
 a = input('16진수 한 글자 입력 :')
@@ -30,11 +30,10 @@ print('남은 돈 --> %d'%money)
 print('='*20)
 
 # 3 주사위 게임
-import random
+from random import randint
 
-
-a = random.randint(1,6)
-b = random.randint(1,6)
+a = randint(1,6)
+b = randint(1,6)
 
 print('A의 주사위 숫자는 %d 입니다'%a)
 print('B의 주사위 숫자는 %d 입니다'%b)
