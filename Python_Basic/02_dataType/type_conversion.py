@@ -13,16 +13,3 @@ print(int('1111', 2)) # 2진수
 
 # float(문자열) : 문자열을 실수로 변환
 print(float(num) + 100)
-
-# 두개의 숫자(정수)를 입력받고 합과 평균을 구하시오
-a = int(input('첫번째 숫자를 입력하세요 :'))
-b = int(input('두번째 숫자를 입력하세요 :'))
-
-total = a+b
-aver = total / 2
-
-print('두 수의 합은', total, '입니다')
-print('두 수의 평균은', aver, '입니다')
-
-# 포맷 이용
-print('두 수의 합은 {0}, 평균은 {1} 입니다'.format(total,aver))
