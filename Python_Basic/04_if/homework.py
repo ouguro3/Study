@@ -14,22 +14,14 @@ print('='*20)
 money = int(input('교환할 돈은 얼마? :'))
 
 a = money // 50000
-money %= 50000
-b = money // 10000
-money %= 10000
-c = money // 5000
-money %= 5000
-d = money // 1000
-money %= 1000
-e = money // 500
-money %= 500
-f = money // 100
-money %= 100
-g = money // 50
-money %= 50
-h = money // 10
+b = (money % 50000) // 10000
+c = (money % 10000) // 5000
+d = (money % 5000) // 1000
+e = (money % 1000) // 500
+f = (money % 500) // 100
+g = (money % 100) // 50
+h = (money % 50) // 10
 money %= 10
-
 
 print('5만원:%d장,만원:%d장,5천원:%d장,천원:%d장'%(a,b,c,d))
 print('500원:%d개,100원:%d개,50원:%d개,10원:%d개'%(e,f,g,h))
