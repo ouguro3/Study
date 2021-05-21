@@ -31,9 +31,10 @@ b = ['잘못을 고치고 옮은 길에 들어섬','죽을 고비를 여러 번 
 
 print('사자성어 맞추기 게임을 시작합니다')
 print('-'*40,end='\n')
-ques = random.choice(b)
+# ques = random.choice(b)
 
 while True:
+    ques = random.choice(b)
     print(ques)
     ans = input('이말의 사자성어는? :')
     if a.index(ans) == b.index(ques):
@@ -41,3 +42,4 @@ while True:
         break
     else:
         print('틀렸습니다.... 다시 도전!')
+        print()
