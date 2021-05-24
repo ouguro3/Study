@@ -9,7 +9,7 @@ students = [
    {"name" : "박지성", "korean" : 95, "math" : 98, "english" : 98, "science" : 98},
    {"name" : "류현진", "korean" : 64, "math" : 88, "english" : 92, "science" : 92}
 ]
-
+print('이름'.rjust(1), '총점'.rjust(6), '평균'.rjust(7))
 for i in students:
     name = (i['name'])
     kor = (i['korean'])
@@ -18,9 +18,10 @@ for i in students:
     sci = (i['science'])
     total = kor + mat + eng + sci
     aver = total / 4
-    print('%s' % name,end='\t')
-    print('%d' % total,end='\t')
-    print('%.1f' % aver)
+    print('%s'.ljust(4) % name,end='\t')
+    print('%d'.rjust(3) % total,end='\t')
+    print('%.1f'.rjust(5) % aver)
+
 
 # 2. 딕셔너리를 이용하여 사용자로 부터 영어단어와 뜻을 입력받아 사전을 구성,
 # 사용자가 입력한 단어를 검색하여 뜻을 출력하는 프로그램 작성
