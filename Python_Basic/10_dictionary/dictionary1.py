@@ -7,3 +7,9 @@ print(list(a.keys()))
 # key 사용해 value 얻기
 grade = {'pey':10, 'julliet': 99}
 print(grade['pey'])
+
+# 컴프리헨션
+
+endDict = {}
+endDict['dog'] = '개'
+endDict['cat'] = '고양이'
