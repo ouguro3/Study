@@ -37,7 +37,8 @@ def show_info():
     print('32')
     print('010-5061-1657')
 
-show_info()
+result = show_info()
+print(result)
 
 # 함수이름 sum()
 # 숫자 2개를 키보드로 입력받아서 두 수의 합을 출력
@@ -52,4 +53,4 @@ def sum():
     to = a + b
     print(to)
 
-sum()
+
