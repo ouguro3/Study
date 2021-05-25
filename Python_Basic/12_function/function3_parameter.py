@@ -25,18 +25,38 @@
 # 2개의 숫자를 키보드로 입력받고, 각 함수에 전달하여
 # 계산 결과를 아래와 같이 출력하는 코드 완성
 
-def add(x,y):
-    return x + y
-def sub(x,y):
-    return x - y
-def mul(x,y):
-    return  x * y
-def div(x,y):
-    return x / y
+# def add(x,y):
+#     return x + y
+# def sub(x,y):
+#     return x - y
+# def mul(x,y):
+#     return  x * y
+# def div(x,y):
+#     return x / y
+#
+# num1 = int(input('숫자 1:'))
+# num2 = int(input('숫자 2:'))
+# print(num1,'+',num2,'=',add(num1,num2))
+# print(num1,'-',num2,'=',sub(num1,num2))
+# print(num1,'x',num2,'=',mul(num1,num2))
+# print(num1,'/',num2,'=',div(num1,num2))
 
-num1 = int(input('숫자 1:'))
-num2 = int(input('숫자 2:'))
-print(num1,'+',num2,'=',add(num1,num2))
-print(num1,'-',num2,'=',sub(num1,num2))
-print(num1,'x',num2,'=',mul(num1,num2))
-print(num1,'/',num2,'=',div(num1,num2))
+# 연습문제
+def order(x,y):
+    amount = x * y
+    if 50000 <= amount < 100000:
+        discount = amount * 0.05
+    elif amount >= 100000:
+        discount = amount * 0.1
+    else:
+        discount = 0
+    total = amount - discount
+    return amount, discount, total
+
+pri = int(input('상품 가격 입력 :'))
+num = int(input('주문 수량 입력 :'))
+price = order(pri,num)
+print('-'*20)
+print('주문액 : %d원'%price[0])
+print('할인액 : %d원'%price[1])
+print('지불액 : %d원'%price[2])
