@@ -14,7 +14,7 @@
 
 # 한글 인코딩 utf-8 지정
 data = '안녕하세요'
-f = open('file2.txt','w',encoding='utf-8')
+f = open('text\\file2.txt','w',encoding='utf-8')
 f.write(data)
 f.close()
 # utf-8 형식으로 저장 : 한글이 안깨짐
