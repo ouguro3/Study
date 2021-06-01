@@ -67,3 +67,17 @@ eye = np.eye(3)
 print(eye)
 
 # 배열의 데이터 타입 변환 astype()
+str_a = np.array(['1','2','3','4','5'])
+num_a = str_a.astype(int)
+print(num_a)
+print(str_a.dtype) # <U1 numpy 데이터의 형식이 유니코드이며, 문자의 수는 최대 1개
+print(num_a.dtype)
+
+# 난수 배열 생성
+# rand() : 0과 1 사이의 난수 생성
+ran1 = np.random.rand(2,3)
+print(ran1)
+
+# randint() : 지정한 범위에 해당하는 정수로 난수 배열을 생성
+ran2 = np.random.randint(10, size=(3,4))
+print(ran2)
