@@ -3,6 +3,7 @@ import numpy as np
 arr1 = np.array([10,20,30,40])
 arr2 = np.array([1,2,3,4])
 
+# 기본 연산
 print(arr1 + arr2)
 
 print(arr1 - arr2)
@@ -15,6 +16,7 @@ print(arr1 * arr2)
 
 print(arr1 / arr2)
 
+# 크기를 비교해서 참 거짓으로 반환 가능
 print(arr1 > 20)
 
 # 통계를 위한 연산
