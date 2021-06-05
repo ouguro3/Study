@@ -1,6 +1,15 @@
-# 구구단
+# 빠른 A + B
 
-# n을 입력받아 구구단을 출력하는 프로그램 작성
+# 입출력 방식이 느리면 여러 줄을 입력받거나 출력할 때 시간초과가 날 수 있다
+# hint : sys.stdin.readline()
+# 단 이때는 맨 끝의 개행문자까지 함께 입력되니 .rstrip() 을 써주는것이 좋다
 
-# n 은 1보다 크거나 같고 9보다 작거나 같다
-
+import sys
+T = int(sys.stdin.readline().rstrip())
+num = []
+for i in range(T):
+    A,B = map(int,sys.stdin.readline().rstrip().split())
+    C = A + B
+    num.append(C)
+for i in num:
+    print(i)
