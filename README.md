@@ -3,6 +3,12 @@
 주 언어  
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
 
+사용 툴  
+<img src="https://img.shields.io/badge/Pycharm-000000?style=flat-square&logo=Pycharm&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Anaconda-44A833?style=flat-square&logo=Anaconda&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=googleColab&logoColor=white"/></a>
+
+
 - Python Basic : 파이썬 기초
 - for data analysis : 데이터 분석을 위한 파이썬 입문
 - Baekjoon : 백준 알고리즘 문제 풀이
