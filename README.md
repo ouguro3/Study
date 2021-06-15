@@ -14,3 +14,4 @@
 - for data analysis : 데이터 분석을 위한 파이썬 입문
 - Baekjoon : 백준 알고리즘 문제 풀이
 - Python_Statistical_Analysis : 파이썬 통계학
+- SQL : 데이터베이스, SQL
