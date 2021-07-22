@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=googleColab&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/VScode-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=white"/></a>
 
-
+- Algorithm : 알고리즘 특강
 - Python Basic : 파이썬 기초
 - for data analysis : 데이터 분석을 위한 파이썬 입문
 - Baekjoon : 백준 알고리즘 문제 풀이
