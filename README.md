@@ -17,7 +17,8 @@
 - Baekjoon : 백준 알고리즘 문제 풀이
 - Python_Statistical_Analysis : 파이썬 통계학
 - SQL : 데이터베이스, SQL
-- ML_Guide : 파이썬 머신러닝 완벽 가이드
+- ML_Guide : 파이썬 머신러닝 완벽 가이드  
+- BDE : 실무로 배우는 빅데이터 기술
 
 
 
