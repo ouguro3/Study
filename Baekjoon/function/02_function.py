@@ -9,7 +9,7 @@
 
 def selnum(x):
     for i in range(1,x+1):
-        i = i + 1
+        a = i + 1
 
 
 selnum(10)
