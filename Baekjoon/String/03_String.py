@@ -7,5 +7,5 @@
 s = list(map(str, input()))
 
 
-
+  
 
