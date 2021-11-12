@@ -4,7 +4,14 @@
 # 각각의 알파벳에 대하여 단어에 포함되어 있는 경우는 위치를,
 # 포함되어 있지않은 경우 -1을 출력하는 프로그램 작성
 
+from string import ascii_lowercase
+alp = list(ascii_lowercase)
 s = list(map(str, input()))
+for i in alp:
+    if i in s:
+        print(s.index(i), end=' ')
+    else:
+        print(-1, end=' ')
 
 
 
