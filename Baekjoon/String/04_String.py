@@ -8,3 +8,7 @@ string = []
 for _ in range(n):
     string.append(input().split())
 
+for x, y in string:
+    for z in range(len(y)):
+        print(y[z]*int(x), end='')
+    print()
